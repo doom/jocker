@@ -1,0 +1,17 @@
+[package]
+name = "jocker"
+version = "0.1.0"
+authors = ["Doom <clement.doumergue@epitech.eu>"]
+edition = "2018"
+
+[dependencies]
+clap = "2.33.0"
+dirs = "2.0.1"
+failure = "0.1.5"
+flate2 = "1.0.9"
+nix = "0.14.1"
+serde = "1.0.95"
+serde_derive = "1.0.95"
+serde_json = "1.0.40"
+tar = "0.4.26"
+uuid = { version = "0.7.4", features = ["v4"] }
